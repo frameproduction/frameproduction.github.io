@@ -1,5 +1,22 @@
 * { margin: 0; padding: 0; }
 
+a.link {
+    color: #c8000a;
+    transition: 0.4s;
+}
+
+a.link:hover {
+    color: #b00009;
+    text-decoration: underline;
+}
+
+p.note {
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 0.825rem;
+    margin-top: 0.5rem;
+}
+
 .nav-item {
     margin-bottom: 0;
     font-weight: 500;
@@ -28,11 +45,20 @@ p.title-description {
     color: #65676B;
 }
 
-p.brand-name {
+.brand-name {
     margin-bottom: 0;
     font-size: 2.5rem;
     font-weight: 700;
     color: #050505;
+}
+
+a {
+    text-decoration: none;
+}
+
+.brand-name:hover {
+    color: #050505;
+    text-decoration: none;
 }
 
 .logo-img {
@@ -97,4 +123,27 @@ img.thumbnail {
     font-size: .8125rem;
     color: #65676B;
     margin-bottom: 0;
+}
+
+.booking-block {
+    text-align: right;
+}
+
+.booking {
+    width: 100%;
+}
+
+.book-now {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    background-color: #c8000a;
+    padding: 1.25rem 6rem;
+    border: none;
+    border-radius: 0.25rem;
+    transition: 0.4s;
+}
+
+.book-now:hover {
+    background-color: #b00009;
 }

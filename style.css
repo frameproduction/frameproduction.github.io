@@ -1,0 +1,100 @@
+* { margin: 0; padding: 0; }
+
+.nav-item {
+    margin-bottom: 0;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    color: #050505;
+    cursor: pointer;
+}
+
+.nav-item.active {
+    background-color: #eee; 
+}
+
+.nav-item.active:hover {
+    background-color: #eee;
+}
+
+.nav-item:hover {
+    color: #050505;
+    background-color: #f6f6f6;
+    text-decoration: none;
+}
+
+p.title-description {
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: #65676B;
+}
+
+p.brand-name {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #050505;
+}
+
+.logo-img {
+    margin-right: 1rem;
+}
+
+hr.header-line {margin: 0;border: 1px solid #eee;}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+li.list-item {
+    padding: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+}
+
+img.logo {
+    width: 8rem;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+img.thumbnail {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: #050505;
+}
+
+.subtitle {
+    font-size: 0.9375rem;
+    color: #65676B;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.lead {
+    font-size: .8125rem;
+    color: #65676B;
+    margin-bottom: 0;
+}

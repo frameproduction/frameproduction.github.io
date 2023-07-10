@@ -49,6 +49,9 @@
 
 <body>
 
+  <script>
+    fbq('track', 'PageView');
+  </script>
 
   <header>
     <div class="container">
@@ -68,6 +71,12 @@
         <div class="col-md-5 d-flex align-items-end booking-block">
           <div class="booking">
             <a href="http://m.me/frameprodvn" target="blank"><button class="book-now">Đặt lịch</button></a>
+            <script>
+              $('.book-now').click(function (e) { 
+                e.preventDefault();
+                fbq('trackCustom', 'SendMessage');
+              });
+            </script>
             <p class="note">* Vui lòng đặt lịch qua fanpage <a href="https://www.facebook.com/frameprodvn/" class="link" target="blank">Frame</a></p>
           </div>
          

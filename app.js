@@ -8,7 +8,7 @@ $(document).ready(function () {
     }
 
     $(window).scroll(function () { 
-        if (window.pageYOffset > 10) {
+        if (window.pageYOffset > 1) {
             $('header').addClass('minimize');
             $('.negative-1').addClass('minimize');
         } else {

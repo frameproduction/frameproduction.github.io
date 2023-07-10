@@ -41,6 +41,7 @@
     'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '779608797244480');
     fbq('track', 'PageView');
+    fbq('trackCustom', 'SendMessage');
   </script>
   <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=779608797244480&ev=PageView&noscript=1"
@@ -70,6 +71,11 @@
         <div class="col-md-5 d-flex align-items-end booking-block">
           <div class="booking">
             <a href="http://m.me/frameprodvn" target="blank"><button class="book-now">Đặt lịch</button></a>
+            <script>
+              $('.book-now').click(function (e) { 
+                fbq('trackCustom', 'SendMessage');
+              });
+            </script>
             <p class="note">* Vui lòng đặt lịch qua fanpage <a href="https://www.facebook.com/frameprodvn/" class="link" target="blank">Frame</a></p>
           </div>
          

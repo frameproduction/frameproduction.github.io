@@ -336,3 +336,10 @@ p.address-ft, p.phone-number-ft {
         font-size: 0.875rem;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .nav-item {
+        font-size: 0.8125rem;
+        padding: 0.75rem 1rem;
+    } 
+}

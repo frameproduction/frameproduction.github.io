@@ -16,6 +16,11 @@ p.lead {
     font-size: 3rem;
     color: #FF3D27;
     margin-bottom: 1rem;
+    transition: 0.4s;
+}
+
+.step-icon:hover {
+    color: #C8000A;
 }
 
 .step {
@@ -54,7 +59,7 @@ a.primary {
 }
 
 a.primary:hover {
-    color: #c8000a;
+    color: #FF3D27;
 }
 
 @media screen and (max-width: 991px) {

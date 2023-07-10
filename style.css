@@ -172,6 +172,11 @@ a {
 
 a.phone {
     color: #65676B;
+    transition: 0.4s;
+}
+
+a.phone:hover {
+    color: #c8000a;
 }
 
 hr.header-line {
@@ -236,6 +241,11 @@ footer {
     text-align: center;
     background-color: #ffebee;
     margin-right: 0.5rem;
+    transition: 0.4s;
+}
+
+.social-icons-ft i:hover {
+    background-color: #FFCDD1;
 }
 
 .social-icons-ft a {

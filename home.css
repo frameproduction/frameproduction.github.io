@@ -1,0 +1,43 @@
+
+li {
+    list-style: none;
+}
+
+li.list-item {
+    padding: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+}
+
+.img {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin-right: 1rem;
+}
+
+img.thumbnail {
+    width: 4rem;
+    height: 4rem;
+}
+
+.title {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: #050505;
+}
+
+.subtitle {
+    font-size: 0.9375rem;
+    color: #65676B;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.lead {
+    font-size: .8125rem;
+    color: #65676B;
+    margin-bottom: 0;
+}

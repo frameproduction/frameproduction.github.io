@@ -9,21 +9,31 @@
 
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  
+
   <!-- link fav-icon -->
   <link rel="icon" href="images/Logo Icon Only-01.png">
 
+  <!-- link font awesome -->
+  <script src="https://kit.fontawesome.com/2488780259.js" crossorigin="anonymous"></script>
+
+  <!-- link google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
   <!-- link file style.css -->
   <link rel="stylesheet" href="style.css">
+  
+  <!-- link user-manual.css -->
+  <link rel="stylesheet" href="user-manual.css">
+
 </head>
 
 <body>
 
   
-  <header class="mt-5 mb-5">
+  <header>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
+      <div class="row hd-line-1">
+        <div class="col-md-7">
           <div class="logo d-flex align-items-center">
             <div class="logo-img">
               <a href="index.html"><img src="images/Logo Icon Only.png" alt="" class="logo"></a>
@@ -31,11 +41,11 @@
             </div>
             <div class="logo-text">
               <a href="index.html" class="brand-name">Frame</a>
-              <p class="title-description">List of filming equipments</p>
+              <p class="slogan">Perfect in every single frame</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 d-flex align-items-end booking-block">
+        <div class="col-md-5 d-flex align-items-end booking-block">
           <div class="booking">
             <a href="http://m.me/frameprodvn" target="blank"><button class="book-now">Đặt lịch</button></a>
             <p class="note">* Vui lòng đặt lịch qua fanpage <a href="https://www.facebook.com/frameprodvn/" class="link" target="blank">Frame</a></p>
@@ -44,21 +54,139 @@
         </div>
       </div>
 
-      <div class="row mt-5">
+      <div class="row hd-line-2">
         <div class="col">
           <div class="navigation">
             <a href="index.html" class="nav-item">Danh sách thiết bị</a>
             <a href="#" class="nav-item active">Hướng dẫn thuê thiết bị</a>
-            <a href="procedure.html" class="nav-item">Thủ tục thuê</a>
-            <a href="rental-cost.html" class="nav-item">Cách tính chi phí</a>
           </div>
         </div>
       </div>
       <hr class="header-line">
     </div>
   </header>
- 
+
   
+  <div class="negative-1"></div>
+<!-- --------------- -->
+
+
+<main class="user-manual-content container py-5">
+  <div class="row">
+    <div class="col-sm-8">
+      
+      <div class="content-block guideline">
+        <h3 class="main-headline">Hướng dẫn thuê thiết bị</h3>
+        <p class="step"><b>Bước 1: </b>Lựa chọn thiết bị</p>
+        <p class="step"><b>Bước 2: </b>Cung cấp thông tin danh sách thiết bị, số lượng, thời gian thuê</p>
+        <p class="step"><b>Bước 3: </b>Đến địa chỉ Frame làm thủ tục thuê và nhận thiết bị</p>
+        <p class="step"><b>Bước 4: </b>Gửi trả thiết bị theo đúng lịch hẹn</p>
+      </div>
+
+      <div class="content-block procedure">
+        <h3 class="main-headline">Thủ tục thuê thiết bị</h3>
+        <p class="step"><b>1. </b>Ký hợp đồng thuê thiết bị</p>
+        <p class="step"><b>2.1 </b>Đặt cọc giấy tờ tuỳ thân bao gồm căn cước công dân và 1 loại giấy tờ được pháp luật công nhận (bằng lái xe, đăng ký xe, sổ hộ khẩu,...)</p>
+        <p class="step"><b>2.2 </b>Đặt cọc tiền hoặc tài sản theo giá trị thiết bị</p>
+        <p class="step"><b>3. </b>Thanh toán chi phí thuê thiết bị ở thời điểm nhận thiết bị</p>
+      </div>
+
+      <div class="content-block price">
+        <h3 class="main-headline">Cách tính chi phí thuê</h3>
+        <p class="step">Thời gian thuê tính trên đơn vị 1 ngày (24 giờ - kể từ thời điểm nhận thiết bị)</p>
+        <h5 class="subhead">Phụ phí trả muộn</h5>
+        <p class="step"><b>1. </b>Thời gian trả muộn từ 1 - 3 giờ: phụ phí 20% giá trị hợp đồng</p>
+        <p class="step"><b>2. </b>Thời gian trả muộn từ 3 - 5 giờ: phụ phí 50% giá trị hợp đồng</p>
+        <p class="step"><b>3. </b>Thời gian trả muộn từ trên 5 giờ: phụ phí 100% giá trị hợp đồng</p>
+      </div>
+      
+    </div>
+
+    <div class="col-sm-4">
+      <div class="contact-block">
+        <h3 class="main-headline">Thông tin liên hệ</h3>
+        
+        <p class="phone-number-ft d-flex">
+          <span class="material-symbols-rounded ct-icon">call</span>
+          <span>0325.417.624<br>0967.404.932</span>
+        </p>
+
+        <p class="address-ft d-flex">
+          <span class="material-symbols-rounded ct-icon">location_on</span> 
+          <span>Nhà 215 khu tập thể K2 Thành Công, P.Thành Công, Q.Ba Đình, TP.Hà Nội</span>
+        </p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.292046714619!2d105.81480997594018!3d21.02099738804389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abdcab41fb57%3A0x2cc5882bd1b24275!2sFrame%20Production!5e0!3m2!1svi!2s!4v1688965382407!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+<!-- --------------- -->
+  <hr class="ft-line">
+
+  <footer class="pt-5">
+    <div class="container pb-5">
+      <div class="row">
+
+        <div class="col-lg-4">
+          <div class="branding-ft">
+            <div class="logo-ft">
+              <img src="images/Logo Icon Only.png" alt="" class="logo-ft-img">
+            </div>
+            <div class="logo-ft-text">
+              <h6 class="brand-name-ft">Frame</h6>
+              <p class="slogan-ft">Perfect in every single frame</p>
+            </div>
+          </div>
+          <p class="info-ft mt-3">
+            Cung cấp thiết bị sản xuất video chuyên nghiệp: máy ảnh, máy quay, ống kính, gimbal, chân máy, đèn, mic thu âm,...và các thiết bị hỗ trợ khác
+          </p>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="contact-ft">
+            <h5 class="headline-ft">Liên Hệ</h5>
+            
+            <p class="address-ft d-flex">
+              <span class="material-symbols-rounded ct-icon">location_on</span> 
+              <span>Nhà 215 khu tập thể K2 Thành Công, P.Thành Công, Q.Ba Đình, TP.Hà Nội</span>
+            </p>
+            
+            <p class="phone-number-ft d-flex">
+              <span class="material-symbols-rounded ct-icon">call</span>
+              <span>0325.417.624<br>0967.404.932</span>
+            </p>
+
+            
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="social-media">
+            <h5 class="headline-ft">Mạng xã hội</h5>
+
+            <div class="social-icons-ft">
+              <a href="https://www.facebook.com/frameprodvn/" target="blank"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/frameprodvn/" target="blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="mailto:frameprodvn@gmail.com"><i class="fa-brands fa-google"></i></a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bottom-line text-center">
+      <p class="copyright">&#169; 2021 <a href="https://www.facebook.com/frameprodvn/" class="link">Frame</a></p>
+    </div>
+  </footer>
+
+  <div class="negative-2"></div>
+  <a href="http://m.me/frameprodvn" target="blank"><button class="book-now pin-to-bot">Đặt lịch</button></a>
 
 
   <!-- Bootstrap JavaScript Libraries -->
@@ -69,6 +197,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+
+  <!-- link jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+  <!-- link file app.js -->
+  <script src="app.js"></script>
+</body>
 </body>
 
 </html>

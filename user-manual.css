@@ -6,6 +6,59 @@
     margin-top: 0;
 }
 
-p.step {
+p.lead {
     margin-bottom: 0.5rem;
+    color: #65676B;
+    font-size: 1rem;
+}
+
+.step-icon {
+    font-size: 3rem;
+    color: #FF3D27;
+    margin-bottom: 1rem;
+}
+
+.step {
+    font-weight: 700;
+    color: #050505;
+}
+
+.maps {
+    margin-top: 2rem;
+}
+
+h3.main-headline {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+h5.subhead {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+span.numbering {
+    color: #c8000a;
+}
+
+.primary {
+    color: #c8000a;
+    font-weight: 700;
+}
+
+a.primary {
+    text-decoration: underline;
+}
+
+a.primary:hover {
+    color: #c8000a;
+}
+
+@media screen and (max-width: 991px) {
+    .contact-block .main-headline {
+        margin-top: 3rem;
+    }
 }

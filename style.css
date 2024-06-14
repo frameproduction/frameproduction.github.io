@@ -170,7 +170,7 @@ a {
     text-decoration: none;
 }
 
-a.phone {
+a.phone, a.address {
     color: #65676B;
     transition: 0.4s;
 }
